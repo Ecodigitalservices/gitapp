@@ -18,5 +18,5 @@ jobs:
             uses: Azure/pipeline@v1
             with:
                 azure-devops-project-url: https://dev.azure.com/DevProject786/DevProject
-                azure-pipeline-name: 'Ecodigitalservices.gitapp'
+                azure-pipeline-name: 'webapp'
                 azure-devops-token: ${{ secrets.Azure_DEVOPS_TOKEN}}
